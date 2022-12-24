@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3ea353913d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="p-2 mx-2 ">  
+        <div class="bg-light">
+          <nav class="navbar">
+              <a class="p-2 flex-grow-1 navbar-brand" href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Bootstrap" width="30" height="30" class="d-inline-block align-text-top">
+                <strong>Instagram</strong>
+              </a>
+    
+              <!-- BOTONES VERDE Y DE SETTINGS -->
+                 <div><button type="button" class="btn btn-success p-2 mx-0" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create a new Post</button> 
+     
+                  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+                    <div class="modal-dialog "> 
+                      <div class="modal-content"> 
+                        <div class="modal-header  "> 
+                          <h1 class="modal-title fs-5 " id="exampleModalLabel">Create a new post</h1> 
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+                        </div> 
+                        <div class="modal-body"> 
+                          <form> 
+                            <div class="mb-3"> 
+                              <label for="recipient-name" class="col-form-label " style="font-weight:500 ;">Caption:</label> 
+    
+    
+                              <textarea placeholder="Add the caption of your post here" class="form-control" id="message-text"></textarea>
+                            </div> 
+                            <div class="mb-3"> 
+                               
+    
+                              <div class="justify-content-bottom mx-1 ">
+                                <button class="  border btn btn bg-light p-2 m-0 far fa fa-camera " type="button"></button>
+                                <button class="  border btn btn bg-light p-2 m-0 far fa fa-smile"  type="button"></button>
+                              </div>
+                            </div> 
+                          </form> 
+                        </div> 
+                        <div class="modal-footer"> 
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> 
+                          <button type="button" class="btn btn-success"> Publish </button> 
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div> </div>
+              
+            <ul class="nav nav-tabs mx-3  ">  
+              
+              <li class=" nav-item dropdown  ">
+                <a class="nav-link dropdown-toggle text-bg-secondary border" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                  <i class="far fa fa-gear"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                  <li><a class="dropdown-item" href="#">Privacy and Settings</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+              </div>
+                
+               </div>      
+               <!-- GRID -->
+     
+               <div class="container text-center">
+                <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fas fa-th"></i></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fas fa-square"></i></button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <div class="row row-cols-1 row-cols-md-3 g-2">
+                            <div class="col">
+                                <div class="card">
+                                  <img src="https://gfp-2a3tnpzj.stackpathdns.com/wp-content/uploads/2021/07/Ginger-f1-6-600x600.jpg" 
+                                  width="200"
+                                  height="350" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                  <img src="https://th.bing.com/th/id/OIP.0IKcUMekjx6rjKGQcKrUEwHaJQ?pid=ImgDet&rs=1 "
+                                  width="200"
+                                  height="350" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                  <img src="https://i1.wp.com/wegowithkids.com/wp-content/uploads/2018/04/Little-Beach-Keri-1.jpg?fit=1200%2C960&ssl=1" 
+                                  width="200"
+                                  height="350"class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                  <img src="https://th.bing.com/th/id/R.3b01b39d606f3b1edc6242a5eea81d2c?rik=ojBDxg6CjXwZqw&riu=http%3a%2f%2fwww.drkeratadds.com%2fassets%2fuploads%2fimages%2fkoer-whitening.jpg&ehk=bA%2fPbIrea37NniCRIt4sanceF5tbedZDbUQB1CuVBUc%3d&risl=&pid=ImgRaw&r=0" 
+                                  width="425"
+                                  height="320" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                  <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/eiffel-tower-with-blooming-flowers-olimpio-fantuz.jpg"
+                                  width="200"
+                                  height="320" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                  <img src="https://uttarakhandnewsnetwork.com/wp-content/uploads/2018/04/ronaldo-bicycle-kick.jpg"
+                                  width="200"
+                                 height="320" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                  <img src=" https://medezeehealthservices.com/wp-content/uploads/2013/11/happy-family-appreciations-1.jpg " 
+                                  width="425"
+                                  height="320" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                  <img src="https://images7.alphacoders.com/122/1228014.png"
+                                  width="425"
+                                 height="320"class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                  <img src="https://images.contentstack.io/v3/assets/blte6ca0397941e65d8/blt171f7dd70908e623/5d6e9651c9ea2e3c7bec5761/iStock-493448730.jpg?auto=webp&format=pjpg&quality=80&width=720&height=720&fit=crop&crop=720:720,smart " width="425"
+                                  height="320" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+<!-- FEED EN BLOCK -->
+<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+  <!-- <div class="container text-center"> -->
+      <div class="row">
+          <div class="col">
+
+          </div>
+          <div class="col g-4">
+              <div class="card py-2 " style="width: 30rem;">
+                  <h5 class="card-title p-1 text-align: left;  ">My Quiet dog Spark!</h5>
+                  <h5 class="card-title p-1 text-align: right; position-absolute top-30 end-0 " style="font-size: small;">08/26</h5>
+                  <img src="https://gfp-2a3tnpzj.stackpathdns.com/wp-content/uploads/2021/07/Ginger-f1-6-600x600.jpg" 
+                  height="400" class="card-img-top" alt="...">
+                  <div class="card-body px-0">
+                      <p class="text-align: left py-1 mx-1" style="font-weight:bold ;">204 likes</p>
+                      <p class="card-text my-1 mx-0" style="font-size:small;">This is an example of a very good photo you can post on Instagram</p>
+                  </div>
+              </div>
+              
+              <div class="col py-4">
+                <div class="card py-2  " style="width: 30rem ">
+                  <h5 class="card-title p-1 text-align: left;">The greatness of the sea</h5>
+                  <h5 class="card-title p-1 text-align: right; position-absolute top-30 end-0 " style="font-size: small;">04/09</h5>
+                  <img src="https://i1.wp.com/wegowithkids.com/wp-content/uploads/2018/04/Little-Beach-Keri-1.jpg?fit=1200%2C960&ssl=1"  class="card-img-top" alt="...">
+                  <div class="card-body px-0">
+                    <p class="text-align: left py-1 mx-1" style="font-weight:bold ;">26985 likes</p>
+                    <p class="card-text my-1 mx-0" style="font-size:small;">This is an example of a very good photo you can post on Instagram</p>
+                 </div>
+               </div>
+              </div>
+              
+              <div class="card py-2" style="width: 30rem;">
+                  <h5 class="card-title p-1 text-align: left;">Amazing GOAL by Cristiano!</h5>
+                  <h5 class="card-title p-1 text-align: right; position-absolute top-30 end-0 " style="font-size: small;">06/09</h5>
+                  <img src="https://uttarakhandnewsnetwork.com/wp-content/uploads/2018/04/ronaldo-bicycle-kick.jpg" class="card-img-top" alt="...">
+                  <div class="card-body px-0">
+                      <p class="text-align: left py-1 mx-1" style="font-weight:bold ;">204 likes</p>
+                      <p class="card-text my-1 mx-0" style="font-size:small;">This is an example of a very good photo you can post on Instagram</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        </body>
+        </body>
+        
+        </html>
